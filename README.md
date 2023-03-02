@@ -50,9 +50,9 @@ ETL into a data warehouse.
 
 ## [Learning Tools Interoperability (LTI)](https://www.imsglobal.org/activity/learning-tools-interoperability)
 
-While working for Pearson Education, I served as the co-chair of a working group that developed
-an international standard for linking together cross-domain learning tools, under the auspices 
-of the IMS Global Learning Consortium (now rebranded as *1EdTech*).
+I served as the co-chair of a working group that developed an international standard for linking
+together cross-domain learning tools, under the auspices of the IMS Global Learning Consortium 
+(now rebranded as *1EdTech*).
 
 As of March 2023, there are 176 learning tools that leverage this standard, benefitting millions 
 of instructors and students.
