@@ -1,5 +1,3 @@
-# Greg McFall's Portfolio
-
 ## [react-firebase-state](https://github.com/gmcfall/react-firebase-state)
 A state management library for Firebase in React apps. This library helps
 you manage server-side data from *Firebase Auth* and *Firestore*, plus
