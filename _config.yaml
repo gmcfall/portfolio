@@ -9,4 +9,5 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: minima
-title: Greg McFall's Portfolio
+name: Greg McFall's Portfolio
+title: null
