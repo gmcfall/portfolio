@@ -3,7 +3,7 @@ A state management library for Firebase in React apps. This library helps
 you manage server-side data from *Firebase Auth* and *Firestore*, plus
 client-side state that you control.
 
-React, Redux, and Firebase has been my preferred front-end stack for years.
+React, Redux, and Firebase had been my preferred front-end stack for years.
 But the combination of Firebase with Redux has some pain points. Compared 
 to other frameworks, it requires more effort to implement new features, 
 even when streamlined with Redux-Toolkit.  Furthermore, the typical design
@@ -13,7 +13,7 @@ under certain circumstances, unmount and remount components in quick succession.
 This impending design change will cause lots of unnecessary data fetching at 
 great expense for components that load data from inside the `useEffect` hook.
 
-I considered switching from Redux to React-Query (now renamed TanStack Query).
+I considered switching from Redux to React-Query (now renamed *TanStack Query*).
 But it's not a great fit because TanStack Query's sweet spot is pulling data 
 from the server, not receiving data pushed from the server as Firestore does 
 when using listeners. In the end, I decided to build a state management library 
@@ -22,13 +22,13 @@ from the ground-up tailored to Firebase's unique features.
 ## [flashcards](https://github.com/gmcfall/flashcards)
 
 A reference application illustrating the use of `react-firebase-state`.
-The application allows students and teachers create and share smart flashcards.
+The application allows students and teachers ro create and share smart flashcards.
 
 This application is still a work-in-progress.
 
 ### Features:
 - Robust User Management including workflows for registration, sign in, sign out, 
-  updating a user profile.
+  updating a user profile, deleting a user account.
 - Search for existing flashcard decks.
 - An editor for concurrent editing of flashcard decks by multiple collaborators.
 - A library of favorite decks.
@@ -38,9 +38,9 @@ This application is still a work-in-progress.
 
 A suite of tools for creating applications that leverage semantic web standards.
 
-As a Principal Architect at Pearson education, I designed all of these tools and led
-a large team of data analysts and software engineers who did most of the coding, though
-I made contributions to the code base, too. Pearson was generous enough to release these 
+As a Principal Architect at Pearson Education, I designed these tools and led
+a team of software engineers who did most of the coding, though I made contributions 
+to the code base, too. Pearson was generous enough to release these 
 tools to the open source community.
 
 The main thrust of this project was to build low-code (and even no-code) solutions for
