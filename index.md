@@ -19,19 +19,34 @@ from the server, not receiving data pushed from the server as Firestore does
 when using listeners. In the end, I decided to build a state management library 
 from the ground-up tailored to Firebase's unique features.
 
+## [yjs-firestore-provider](https://github.com/gmcfall/yjs-firestore-provider)
+It is notoriously difficult to build collaborative applications like Google Docs 
+where various users make concurrent changes to the same rich-text document or 
+some other complex data structure.
+
+[Yjs](https://docs.yjs.dev/) is a library of modular building blocks that 
+simplifies the development of such collaborative applications. It includes a 
+variety of *providers* that set up the communication between clients, manage
+awareness information, and store shared data. Unfortunately, Yjs does not
+include a provider that uses Google Firestore as the backend.
+
+The `yjs-firestore-provider` module fills that gap.
+
 ## [flashcards](https://github.com/gmcfall/flashcards)
 
-A reference application illustrating the use of `react-firebase-state`.
-The application allows students and teachers ro create and share smart flashcards.
+A reference application illustrating the use of `react-firebase-state` and 
+`yjs-firestore-provider`.
 
-This application is still a work-in-progress.
+The application allows students and teachers to create and share smart flashcards.
+
+This application is a work-in-progress.
 
 ### Features:
 - Robust User Management including workflows for registration, sign in, sign out, 
-  updating a user profile, deleting a user account.
+  updating a user profile, and deleting a user account.
 - Search for existing flashcard decks.
 - An editor for concurrent editing of flashcard decks by multiple collaborators.
-- A library of favorite decks.
+- A personal library of favorite decks.
 - A sharing workflow similar to Google Docs.
 
 ## [Konig Semantic Toolkit](https://github.com/konigio)
